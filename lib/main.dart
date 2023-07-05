@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'screen/ContactUs.dart';
+import 'screen/OpenApp.dart';
 import 'screen/ShopProfileSetting.dart';
 import 'screen/UserAccountSetting.dart';
 import 'screen/UserProfileSetting.dart';
 import 'screen/SearchMotor.dart';
+import 'screen/Welcome.dart';
 import 'screen/verifyEmail.dart';
 
 void main() {
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: UserAccountSetting(),
+      home: Welcome(),
     );
   }
 }
