@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'screen/ChangePassword.dart';
+import 'screen/ConfirmPasswordShopSetting.dart';
 import 'screen/ContactUs.dart';
+import 'screen/LanguageSetting.dart';
 import 'screen/OpenApp.dart';
+import 'screen/RulesRegulations.dart';
+import 'screen/ShopNotification.dart';
 import 'screen/ShopProfileSetting.dart';
 import 'screen/ShopAccountSetting.dart';
 import 'screen/UserProfileSetting.dart';
@@ -23,7 +28,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ShopAccountSetting(),
+      home: ShopNotification(),
     );
   }
 }
