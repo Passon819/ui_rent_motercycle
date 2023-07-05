@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class UserAccountSetting extends StatefulWidget {
-  const UserAccountSetting({super.key});
+class ShopAccountSetting extends StatefulWidget {
+  const ShopAccountSetting({super.key});
 
   @override
-  State<UserAccountSetting> createState() => _UserAccountSettingState();
+  State<ShopAccountSetting> createState() => _ShopAccountSettingState();
 }
 
-class _UserAccountSettingState extends State<UserAccountSetting> {
+class _ShopAccountSettingState extends State<ShopAccountSetting> {
   TextEditingController NameController =
       TextEditingController(text: 'Pikachu Obubu');
   TextEditingController EmailController =

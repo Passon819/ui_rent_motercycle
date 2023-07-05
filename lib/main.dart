@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'screen/ContactUs.dart';
 import 'screen/OpenApp.dart';
 import 'screen/ShopProfileSetting.dart';
-import 'screen/UserAccountSetting.dart';
+import 'screen/ShopAccountSetting.dart';
 import 'screen/UserProfileSetting.dart';
 import 'screen/SearchMotor.dart';
 import 'screen/Welcome.dart';
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Welcome(),
+      home: ShopAccountSetting(),
     );
   }
 }
