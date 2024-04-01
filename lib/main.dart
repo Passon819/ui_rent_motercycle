@@ -12,6 +12,7 @@ import 'screen/UserProfileSetting.dart';
 import 'screen/SearchMotor.dart';
 import 'screen/Welcome.dart';
 import 'screen/verifyEmail.dart';
+import 'test.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ShopNotification(),
+      home: MyWidget(),
     );
   }
 }
